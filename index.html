@@ -35,31 +35,26 @@
       The questions are split in two groups: a) the questions focusing on the Self-Directed Research Tools and b) the
       questions focusing on Assisted Research Solutions.
     </p>
-
-    <form method="POST" name="interest-form" id="interest-form">
+    <form action="https://formspree.io/f/meqddyjk" method="post" target="display-frame" name="interest-form"
+      id="interest-form">
 
       <h2 class="selfdirected">Block A: Self-Directed Research Tools</h2>
 
       <p class="question">Would you be interested in a personalised community for your brand where you could ask them
         any question relevant to your brand, future and ongoing projects?<br><span id="more">learn more</span></p>
-      <label for="yescommunity"><input type="radio" id="yescommunity" name="community"
-          value="yescommunity">Yes</label><br>
-      <label for="nocommunity"><input type="radio" id="nocommunity" name="community" value="nocommunity">No</label><br>
+      <label for="yescommunity"><input type="radio" id="yescommunity" name="community" value="Yes">Yes</label><br>
+      <label for="nocommunity"><input type="radio" id="nocommunity" name="community" value="No">No</label><br>
 
       <p class="question">Would you be interested in a quantitative tool to validate some of your findings with 500
         people at once and get answers within 24 hours?<br><span id="more">learn more</span></p>
-      <label for="yesqcommunity"><input type="radio" id="yesqcommunity" name="qcommunity"
-          value="yesqcommunity">Yes</label><br>
-      <label for="noqcommunity"><input type="radio" id="noqcommunity" name="qcommunity"
-          value="noqcommunity">No</label><br>
+      <label for="yesqcommunity"><input type="radio" id="yesqcommunity" name="qcommunity" value="Yes">Yes</label><br>
+      <label for="noqcommunity"><input type="radio" id="noqcommunity" name="qcommunity" value="No">No</label><br>
 
       <p class="question">Would you be interested in a tool to directly connect with a group of your customers to learn
         why they buy your
         products, how they use them, and the feedback they have for you?<br><span id="more">learn more</span></p>
-      <label for="yesethno1"><input type="radio" id="yesethno1" name="ethnographics1"
-          value="yesethno1">Yes</label><br>
-      <label for="noethno1"><input type="radio" id="noethno1" name="ethnographics1"
-          value="noethno1">No</label><br>
+      <label for="yesethno1"><input type="radio" id="yesethno1" name="ethnographics1" value="Yes">Yes</label><br>
+      <label for="noethno1"><input type="radio" id="noethno1" name="ethnographics1" value="No">No</label><br>
 
       <p class="question">Would you be interested in a tool recruit specific individuals to interact with your products
         and provide you
@@ -67,10 +62,8 @@
         improve your product or inform your current marketing strategy.
         <br><span id="more">learn more</span>
       </p>
-      <label for="yesethno2"><input type="radio" id="yesethno2" name="ethnographics2"
-          value="yesethno2">Yes</label><br>
-      <label for="noethno2"><input type="radio" id="noethno2" name="ethnographics2"
-          value="noethno2">No</label><br>
+      <label for="yesethno2"><input type="radio" id="yesethno2" name="ethnographics2" value="Yes">Yes</label><br>
+      <label for="noethno2"><input type="radio" id="noethno2" name="ethnographics2" value="No">No</label><br>
 
       <h2 class="assisted">Block B: Assisted Research Solutions</h2>
 
@@ -81,47 +74,50 @@
         improved?
         <br><span id="more">learn more</span>
       </p>
-      <label for="yesoi"><input type="radio" id="yesoi" name="openinno" value="yesoi">Yes</label><br>
-      <label for="nooi"><input type="radio" id="nooi" name="openinno" value="nosoi">No</label><br>
+      <label for="yesoi"><input type="radio" id="yesoi" name="openinno" value="Yes">Yes</label><br>
+      <label for="nooi"><input type="radio" id="nooi" name="openinno" value="No">No</label><br>
 
       <p class="question">Would you be interested having our researchers & strategists assess your organizational
         processes to uncover
         the unretrieved development opportunities?<br><span id="more">learn more</span></p>
-      <label for="yesinternal"><input type="radio" id="yesinternal" name="internal" value="yesinternal">Yes</label><br>
-      <label for="nointernal"><input type="radio" id="nointernal" name="internal" value="nointernal">No</label><br>
+      <label for="yesinternal"><input type="radio" id="yesinternal" name="internal" value="Yes">Yes</label><br>
+      <label for="nointernal"><input type="radio" id="nointernal" name="internal" value="No">No</label><br>
 
       <p class="question">Would you be interested in receiving a customized yearly report that tracks shifts in consumer
         needs,
         behaviours, and disruptions in your given industry?<br><span id="more">learn more</span></p>
-      <label for="yesshifts"><input type="radio" id="yesshifts" name="shifts" value="yesshifts">Yes</label><br>
-      <label for="noshifts"><input type="radio" id="noshifts" name="shifts" value="noshifts">No</label><br>
+      <label for="yesshifts"><input type="radio" id="yesshifts" name="shifts" value="Yes">Yes</label><br>
+      <label for="noshifts"><input type="radio" id="noshifts" name="shifts" value="No">No</label><br>
 
       <p class="question">Would you be interested in any qualitative or quantitative research focused on brand
         analytics, product design,
         product testing, consumer profiling, competitive analytics,
         tracking?<br><span id="more">learn more</span></p>
-      <label for="yesother"><input type="radio" id="yesother" name="other" value="yesother">Yes</label><br>
-      <label for="noother"><input type="radio" id="noother" name="other" value="noother">No</label><br>
+      <label for="yesother"><input type="radio" id="yesother" name="other" value="Yes">Yes</label><br>
+      <label for="noother"><input type="radio" id="noother" name="other" value="No">No</label><br>
 
       <div id="displaybutton">Build Briefs</div>
 
 
       <h2 class="briefs">Recommened Research</h2>
       <div class="products">
+        <p id="noproductstoshow">There are no products that match you criteria.<br>
+          Please send us an E-mail with details on your needs and we will be happy to discuss those with you!</p>
         <!--products-->
         <div class="producthidden" id="communityproduct">
           <img id="icover" alt="Cover" src="assets/images/product1.jpeg" />
           <h3 id="community">Customised Ongoing Community</h3>
           <div class="productinfo">
-          <span id="scope">Scope:</span>
-          <div class="scope">30 ‘Think Tank’ Members Customised To Each Individual Brand</div>
-          <span id="description">Description:</span>
-          <div class="description">To be used for adhoc qualitative questioning on all projects.
-            MiaM will source, recruit, and manage audiences as well as manage all admin/outputs and deliverables needed
-            for Masimo teams.
-            To be used on Slack and MiaM qualitative proprietary platforms.</div>
-          <span id="frequency">Frequency/Duration:</span>
-          <div class="frequency">Ad-hoc as needed. Up to 2-3 questions per week.</div>
+            <span id="scope">Scope:</span>
+            <div class="scope">30 ‘Think Tank’ Members Customised To Each Individual Brand</div>
+            <span id="description">Description:</span>
+            <div class="description">To be used for adhoc qualitative questioning on all projects.
+              MiaM will source, recruit, and manage audiences as well as manage all admin/outputs and deliverables
+              needed
+              for Masimo teams.
+              To be used on Slack and MiaM qualitative proprietary platforms.</div>
+            <span id="frequency">Frequency/Duration:</span>
+            <div class="frequency">Ad-hoc as needed. Up to 2-3 questions per week.</div>
           </div>
           <div class="selector">Selected</div>
         </div>
@@ -131,12 +127,12 @@
 
           <h3>Quant Mobile App Subscription</h3>
           <div class="productinfo">
-          <span id="scope">Scope:</span>
-          <div class="scope">3 pulse style questions to up to 500 respondents.</div>
-          <span id="description">Description:</span>
-          <div class="description">To be used for adhoc questioning and validation on all projects.</div>
-          <span id="frequency">Frequency/Duration:</span>
-          <div class="frequency">Ad-hoc as needed. Up to 2-3 pulses per week.</div>
+            <span id="scope">Scope:</span>
+            <div class="scope">3 pulse style questions to up to 500 respondents.</div>
+            <span id="description">Description:</span>
+            <div class="description">To be used for adhoc questioning and validation on all projects.</div>
+            <span id="frequency">Frequency/Duration:</span>
+            <div class="frequency">Ad-hoc as needed. Up to 2-3 pulses per week.</div>
           </div>
           <div class="selector">Selected</div>
         </div>
@@ -146,12 +142,12 @@
 
           <h3>Deep Dive Video Interviews</h3>
           <div class="productinfo">
-          <span id="scope">Scope:</span>
-          <div class="scope">Up to 30 deep dive interviews. Up to 15 questions per interview.</div>
-          <span id="description">Description:</span>
-          <div class="description">Interviews on any topic the sound brands wish to gain thorough insights on.</div>
-          <span id="frequency">Frequency/Duration:</span>
-          <div class="frequency">Ad-hoc as needed.</div>
+            <span id="scope">Scope:</span>
+            <div class="scope">Up to 30 deep dive interviews. Up to 15 questions per interview.</div>
+            <span id="description">Description:</span>
+            <div class="description">Interviews on any topic the sound brands wish to gain thorough insights on.</div>
+            <span id="frequency">Frequency/Duration:</span>
+            <div class="frequency">Ad-hoc as needed.</div>
           </div>
           <div class="selector">Selected</div>
         </div>
@@ -160,107 +156,115 @@
           <img id="icover" alt="Cover" src="assets/images/product1.jpeg" />
           <h3>Quarterly Trend & Insight Reporting</h3>
           <div class="productinfo">
-          <span id="scope">Scope:</span>
-          <div class="scope">Quarterly quick-hitting reports that share the latest on:
-            <ul>
-              <li>Music Industry trends</li>
-              <li>New products, services apps/UI etc.</li>
-              <li>Consumer behaviors, audience shifts</li>
-              <li>Brand/communication trends</li>
-              <li>Competitive tracking</li>
-              <li>Economic trends and impacts</li>
-              <li>Technological advances</li>
-            </ul>
-          </div>
-          <span id="description">Description:</span>
-          <div class="description">These reports could be shared across the entire organization to help keep teams close
-            to your consumers and the market.
-            <ul>
-              <li>Validates current developments.</li>
-              <li>Ensures products and messaging is relevant and authentic.</li>
-            </ul>
-          </div>
-          <span id="frequency">Frequency/Duration:</span>
-          <div class="frequency">4 reports per year</div>
+            <span id="scope">Scope:</span>
+            <div class="scope">Quarterly quick-hitting reports that share the latest on:
+              <ul>
+                <li>Music Industry trends</li>
+                <li>New products, services apps/UI etc.</li>
+                <li>Consumer behaviors, audience shifts</li>
+                <li>Brand/communication trends</li>
+                <li>Competitive tracking</li>
+                <li>Economic trends and impacts</li>
+                <li>Technological advances</li>
+              </ul>
+            </div>
+            <span id="description">Description:</span>
+            <div class="description">These reports could be shared across the entire organization to help keep teams
+              close
+              to your consumers and the market.
+              <ul>
+                <li>Validates current developments.</li>
+                <li>Ensures products and messaging is relevant and authentic.</li>
+              </ul>
+            </div>
+            <span id="frequency">Frequency/Duration:</span>
+            <div class="frequency">4 reports per year</div>
           </div>
           <div class="selector">Selected</div>
         </div>
 
         <div class="producthidden" id="peopletracker">
           <img id="icover" alt="Cover" src="assets/images/product1.jpeg" />
-        
+
           <h3>Global People Tracker Deep Dive Study</h3>
           <div class="productinfo">
-          <span id="scope">Scope:</span>
-          <div class="scope">Yearly report tracking shifts consumer needs, behaviours and disurptions. Having in depth interviews with consumers and
-          layering that with quantitative findings and secondary research.
-          </div>
-          <span id="description">Description:</span>
-          <div class="description">This report could also be shared across the entire orgranization to help keep teams close to your consumers and the
-          market.
-          </div>
-          <span id="frequency">Frequency/Duration:</span>
-          <div class="frequency">1 report per year</div>
+            <span id="scope">Scope:</span>
+            <div class="scope">Yearly report tracking shifts consumer needs, behaviours and disurptions. Having in depth
+              interviews with consumers and
+              layering that with quantitative findings and secondary research.
+            </div>
+            <span id="description">Description:</span>
+            <div class="description">This report could also be shared across the entire orgranization to help keep teams
+              close to your consumers and the
+              market.
+            </div>
+            <span id="frequency">Frequency/Duration:</span>
+            <div class="frequency">1 report per year</div>
           </div>
           <div class="selector">Selected</div>
         </div>
 
         <div class="producthidden" id="producttesting">
           <img id="icover" alt="Cover" src="assets/images/product1.jpeg" />
-        
+
           <h3>Product Testing</h3>
           <div class="productinfo">
-          <span id="scope">Scope:</span>
-          <div class="scope">....
-          </div>
-          <span id="description">Description:</span>
-          <div class="description">...
-          </div>
-          <span id="frequency">Frequency/Duration:</span>
-          <div class="frequency">...</div>
+            <span id="scope">Scope:</span>
+            <div class="scope">....
+            </div>
+            <span id="description">Description:</span>
+            <div class="description">...
+            </div>
+            <span id="frequency">Frequency/Duration:</span>
+            <div class="frequency">...</div>
           </div>
           <div class="selector">Selected</div>
         </div>
 
         <div class="producthidden" id="futurework">
           <img id="icover" alt="Cover" src="assets/images/product1.jpeg" />
-        
+
           <h3>Future of Work Deep Dive Study</h3>
           <div class="productinfo">
-          <span id="scope">Scope:</span>
-          <div class="scope">An ideation report where external ideators and internal employees would brainstorm ways in which the company can develop
-          internally and create a better working environment.
-          </div>
-          <span id="description">Description:</span>
-          <div class="description">You can pick your ideators:
-          <ul>
-            <li>Your Current Employees</li>
-            <li>The Future Workforce (Gen Z)</li>
-            <li>Conceptual Creators</li>
-            <li>Future of Work Experts</li>
-          </ul>          
-          Ideation will take place on the Mole in a Minute platform and in a Slack group.
-          </div>
-          <span id="frequency">Frequency/Duration:</span>
-          <div class="frequency">Two week ideation process for Mavens, three week ideation process for moles, one week period of compilation.</div>
+            <span id="scope">Scope:</span>
+            <div class="scope">An ideation report where external ideators and internal employees would brainstorm ways
+              in which the company can develop
+              internally and create a better working environment.
+            </div>
+            <span id="description">Description:</span>
+            <div class="description">You can pick your ideators:
+              <ul>
+                <li>Your Current Employees</li>
+                <li>The Future Workforce (Gen Z)</li>
+                <li>Conceptual Creators</li>
+                <li>Future of Work Experts</li>
+              </ul>
+              Ideation will take place on the Mole in a Minute platform and in a Slack group.
+            </div>
+            <span id="frequency">Frequency/Duration:</span>
+            <div class="frequency">Two week ideation process for Mavens, three week ideation process for moles, one week
+              period of compilation.</div>
           </div>
           <div class="selector">Selected</div>
         </div>
 
         <div class="producthidden" id="allinclusive">
           <img id="icover" alt="Cover" src="assets/images/product1.jpeg" />
-        
+
           <h3>All Inclusive Innovation Report</h3>
           <div class="productinfo">
             <span id="scope">Scope:</span>
-            <div class="scope">A special innovation report whereby industrial designers would ideate and sketch ways in which audio products and
-            services could be more accessible for people with disabilities (physical, sensory, cognitive) as well as the elderly.
+            <div class="scope">A special innovation report whereby industrial designers would ideate and sketch ways in
+              which audio products and
+              services could be more accessible for people with disabilities (physical, sensory, cognitive) as well as
+              the elderly.
             </div>
             <span id="description">Description:</span>
             <div class="description">....
             </div>
             <span id="frequency">Frequency/Duration:</span>
-            <div class="frequency">One week brainstorm as a group, two week period of design, one week period of disabled and elderly Maven feedback.</div>
+            <div class="frequency">One week brainstorm as a group, two week period of design, one week period of
+              disabled and elderly Maven feedback.</div>
           </div>
           <div class="selector">Selected</div>
         </div>
@@ -270,32 +274,38 @@
       <h2 class="contact">Contact Us</h2>
       <div class="contactform">
         <!--<label for="org">What's the name of your organisation?*</label><br>-->
-        <input type="text" id="org" name="org" placeholder="Company Name*" required><br>
+        <input type="text" id="org" name="Org" placeholder="Company Name*" required><br>
 
         <!--<label for="org">What's your industry?*</label><br>-->
-        <input type="text" id="ind" name="ind" placeholder="Industry*" required><br>
+        <input type="text" id="ind" name="Ind" placeholder="Industry*" required><br>
 
         <!--<label for="fname">First Name*</label><br>-->
-        <input type="text" id="fname" name="fname" placeholder="First Name*" required><br>
+        <input type="text" id="fname" name="Fname" placeholder="First Name*" required><br>
 
         <!--<label for="org">Last Name*</label><br>-->
-        <input type="text" id="lname" name="lname" placeholder="Last Name*" required><br>
+        <input type="text" id="lname" name="Lname" placeholder="Last Name*" required><br>
 
         <!--<label for="org">Job Title*</label><br>-->
-        <input type="text" id="job" name="job" placeholder="Job Title*" required><br>
+        <input type="text" id="title" name="Title" placeholder="Job Title*" required><br>
 
-        <!--<label for="org">E-mail*:</label><br>-->
-        <input type="email" id="email" name="email" placeholder="E-mail*" required><br>
+        <!--<label for="Email">E-mail*:</label><br>-->
+        <input type="email" id="email" name="Email" placeholder="E-mail*" required><br>
 
         <!--<label for="objective">What are your company's key objectives between now and 2030?*</label><br>-->
         <textarea class="objectives" id="objectives" rows="2" placeholder="Objectives*" required></textarea>
-
         <button class="submit" type="submit">Submit</button>
       </div>
       </div>
     </form>
+    <div id="background">
+      <div id="message">
+        Your message has been submitted.<br>
+        Thank you for your interest!
+        <div id="close">close</div>
+      </div>
     </div>
-
+    </div>
+    <iframe name="display-frame" id="hiddenframe"></iframe>
   </main>
   <footer></footer>
 </body>
